@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Pelis
+    </title>
+    <link type="text/css" rel="stylesheet" href="Estilopeliculas.css">
+</head>
+
+<body>
+    <div class="Contenedor-global">
+        <div class="contenedor-izquierdo" id="bio">
+            <figure>
+                <img src="img/author-image.png" class="Foto">
+                <figcaption>
+                    <h2>
+                        <blockquote> Yafte Aaron Flores </blockquote>
+                    </h2>
+                    <h4> <em>Maestro en Ciencias</em> </h4>
+                </figcaption>
+            </figure>
+            <ul class="lista">
+                <a href="Index.html">
+                    <li>Acerca de mi</li>
+                </a>
+                <li>Conocimiento</li>
+                <li>Mis Trabajos</li>
+                <li>Películas</li>
+                <li>Contacto</li>
+            </ul>
+
+        </div>
+
+        <div class="contenedor-derecho">
+            <h1 id="enca">Películas</h1>
+            <hr id="tp" color="#a63e49">
+            <p id="info">Les presento mi top 5 de peliculas favoritas.</p>
+            <div id="Botones">
+                <img id="mas" onclick="agregar();" src="imgp/agregar.png">
+                <img id="menos" src="imgp/eliminar.png">
+                <!--FALTA FUNCIONBORRAR-->
+            </div>
+
+
+            <div id="Cuerpo">
+
+                <table id="princ">
+                    <!-- TABLA DINAMICA-->
+                    <thead>
+                        <tr>
+                            <th>Top</th>
+                            <th>Película</th>
+                            <th>Calificación</th>
+                        </tr>
+                    </thead>
+                    <tr class="Fn">
+                        <!--OJO AQUI-->
+                        <td>1</td>
+                        <td>Codigo Enigma</td>
+                        <td>10</td>
+                    </tr>
+                    <tr class="Fn">
+                        <td>2</td>
+                        <td>Hidden Figures</td>
+                        <td>10</td>
+                    </tr>
+                    <tr class="Fn">
+                        <td>3</td>
+                        <td>Enemigos Publicos </td>
+                        <td>9.5</td>
+                    </tr>
+                    <tr class="Fn">
+                        <td>4</td>
+                        <td>Bastardos Sin Gloria</td>
+                        <td>9</td>
+                    </tr>
+                    <tr class="Fn">
+                        <td>5</td>
+                        <td>Cars</td>
+                        <td>9</td>
+                    </tr>
+                </table>
+            </div>
+            <div id="Der">
+                <img id="Catalogo" src="imgp/Codigo enigma.jpg">
+                <p id="cabecera">Codigo Enigma</p>
+            </div>
+        </div>
+        <!--DIV DERECHO-->
+    </div>
+    <!--DIV GLOBAL-->
+    <script type="text/javascript" src="Funciones.js"></script>
+</body>
+
+</html>
